@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "active-directory-b2c-wpf", "active-directory-b2c-wpf\active-directory-b2c-wpf.csproj", "{9A4269AF-7862-482C-A9FC-98D3542C4129}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-desktop-client", "active-directory-b2c-wpf\wpf-desktop-client.csproj", "{9A4269AF-7862-482C-A9FC-98D3542C4129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAPI", "HelloAPI\HelloAPI.csproj", "{25EC70BB-BE4B-4C4D-9473-06D19E8CB59B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspnet-web-api-server", "HelloAPI\aspnet-web-api-server.csproj", "{25EC70BB-BE4B-4C4D-9473-06D19E8CB59B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
