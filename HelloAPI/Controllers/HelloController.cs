@@ -12,14 +12,14 @@ namespace HelloAPI.Controllers
     {
         // OWIN auth middleware constants
         public const string scopeElement = "http://schemas.microsoft.com/identity/claims/scope";
-        public const string objectIdElement = "http://schemas.microsoft.com/identity/claims/objectidentifier";
+//        public const string objectIdElement = "http://schemas.microsoft.com/identity/claims/objectidentifier";
 
         [Authorize]
         [Route("hello")]
         [HttpGet]
         public string Hello()
         {
-            HasRequiredScopes("hello");
+            HasRequiredScopes("read_name");
 
             string name = ClaimsPrincipal.Current.FindFirst("name").Value;
 
