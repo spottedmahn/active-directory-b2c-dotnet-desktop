@@ -15,7 +15,7 @@ namespace active_directory_b2c_wpf
     public partial class App : Application
     {
         private static string Tenant = "dorfarasB2CTenant.onmicrosoft.com";
-        private static string ClientId = ConfigurationManager.AppSettings["ClientId"];
+        private static string ClientId = "6d477a4d-92d7-448f-a1b1-f009d27d246f";
         public static string PolicySignUpSignIn = "b2c_1_SiUpIn";
         public static string PolicyEditProfile = "b2c_1_edit_profile";
         public static string PolicyResetPassword = "b2c_1_reset";
